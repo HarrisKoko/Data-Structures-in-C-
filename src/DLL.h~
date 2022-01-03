@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+class intDLLNode{
+	
+	friend class intDLList;
+	
+	public:
+		intDLLNode(int el=0; intDLLNode *nextPtr=nullptr,intDLLNode *prevPtr=nullptr);       
+
+	private:
+		int info;
+		intDLLNode *next;
+		intDLLNode *prev;
+
+};	
+
+class intDLList{
+
+
+};
